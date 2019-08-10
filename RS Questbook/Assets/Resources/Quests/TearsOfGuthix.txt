@@ -1,0 +1,88 @@
+﻿: You have just climbed down a rope and emerged in the Lumbridge Swamp Caves.
+: You wander through the winding caves, passing hot steam vents and strange, insect-like creatures.
+: To the southeast, you encounter a stretch of swamp that is spanned by large stepping stones. You cross it.
+: Past the swamp, the ground is soft. You are surrounded by giant frogs.
+: ...
+: You emerge in a dark room. There is a huge pit in front of you.
+: As you approach, you begin to see a faint twinkling come from within the pit.
+: You walk around the lip of the pit, and the twinkling intensifies, until you can make out the shape of dozens of small light creatures.
+: At the far end of the pit, you find an entrance to a small cavern.
+: A huge snake is draped over the rock around the entrance, blocking passage with its massive coils.
+: You approach the snake and speak to it.
+
+You (surprise): Hello?
+Juna: Tell me... a story...
+You (question): A story?
+Juna: I have been waiting here for three thousand years, guarding the Tears of Guthix. 
+Juna (curious): I serve my master faithfully, but I am bored. An adventurer such as yourself must have many tales to tell.
+Juna: If you can entertain me, I will let you in the cave for a time. The more I enjoy your story, the more time I will give you in the cave.
+Juna: There, you may drink from the Tears, to attain the power of balance. It will make you stronger in whatever area you are weakest.
+
+DECISION:
+	BUTTON: Tell me more about the Tears of Guthix.
+		Juna (sad): The Third Age of the world was a time of great conflict, of destruction never seen before or since, when all the gods save Guthix warred for control.
+		Juna: The colossal wyrms, of whom today's dragons are a pale reflection, turned all the sky to fire... 
+		Juna: ...While on the ground, armies of foot soldiers - goblins and trolls and humans - filled the valleys and plains with blood.
+		Juna (curious): In time, the noise of conflict woke Guthix from His deep slumber, and He rose and stood in the center of the battlefield,
+		Juna (curious): so that the splendour of His wrath filled the world, and He called for the conflict to cease!
+		Juna: Silence fell, for the gods knew that none could challenge the power of the mighty Guthix, for His power is that of nature itself, to which all other things are subject.
+		Juna: Guthix reclaimed that which had been stolen from Him, and went back underground to his sleep, to continue to draw the world's power into Himself.
+		Juna (curious): But on His way into the depths of the earth, He sat and rested in this cave.
+		Juna (curious): And, thinking of the battle-scarred desert that now stretched from one side of his world to the other, He wept.
+		Juna: And so great was His sorrow, and so great was His life-giving power, that the rocks themselves began to weep with Him.
+		Juna: Guthix noticed that the rocks continued to weep, and that their tears were infused with a small part of His power.
+		Juna (curious): So He sent me, His servant, to guard the cave, and He entrusted me the task of judging who was and was not worthy to access the Tears.
+		You: I see.
+		Juna: But I have spoken too much. Now it is your turn.
+		You: Okay, I'll tell you a story...
+	BUTTON: Okay, I'll tell you a story...
+: You tell Juna some stories of your adventures.
+You (happy): And then I clobbered him over the head with it! You should have seen his face!
+Juna (curious): Your stories have entertained me. I will let you into the cave for a short time.
+Juna: But first, you will need to make a bowl in which to collect the Tears.
+Juna: There is a cave at the bottom of the chasm that is similarly infused with the power of Guthix.
+Juna (curious): The stone in that cave is the only substance that can catch the Tears of Guthix.
+Juna: Mine some stone from that cave, make it into a bowl, and bring it to me, and then I will let you catch the Tears.
+
+: You approach the chasm and begin to climb down it.
+: ...
+: As you climb, a piece of rock slips beneath you, and you lose your footing.
+: You don't fall very far, however, before you are caught by something.
+: One of the shimmering light creatures in the chasm has caught hold of you, and begins to carefully guide you down to the bottom.
+: ...
+: The light creature drops you off in a small cavern. You are surrounded by glittering magic stones.
+: You approach one of the stones and chip a piece off with your pickaxe.
+: You carefully chisel the stone into a bowl.
+: You make your way to the edge of the cavern and begin your slow ascent back to the top.
+: ...
+: You emerge back at the lip of the chasm and speak to Juna again.
+
+You (happy): Juna! You won't believe what happened!
+Juna (curious): I saw. You were rescued from death by the light creatures.
+
+DECISION:
+	BUTTON: What are those things?
+		Juna: Let me tell you a story...
+		Juna (curious): Myriad and beautiful were the creatures and civilizations of the early ages of the world.
+		Juna (curious): Gielinor was a work of art, shaped lovingly over the millennia by the creative mind of Guthix.
+		Juna (sad): Only the sturdiest races survived the God Wars, and even then only by abandoning their culture and pivoting towards war.
+		Juna (sad): Of the more delicate races, there is now no trace, and almost no memory.
+		Juna: One such race had bodies as fragile as snowflakes, yet they built crystal cities that stood for thousands of years.
+		Juna (curious): The wind would whisper through the spires and fill them with sweet harmonies, and the rising sun would shine through the gem-studded towers as though they were dancing rainbows.
+		Juna (curious): Indeed, so marvellous was this light show at its height, that the patterns of light themselves came alive, 
+		Juna (curious): And great flocks of luminous creatures rode along the gem-cast beams, each drawn to its own color.
+		Juna: The creatures you see floating in this chasm are the last sorry remnants of that age.
+		Juna (sad): I do not know how they made their way here and survived to this day, but I am grateful for their company.
+		Juna: Now, would you like to visit the Tears of Guthix?
+		You: Yes, please.
+	BUTTON: Can I go in the cave now?
+		Juna: You may, if you wish.
+
+: Juna lifts her voluminous girth, and you pass beneath her into the cave beyond.
+: ...
+: You emerge in a small cave, with shimmering blue liquid dripping from the walls.
+: You approach the far wall and dip your stone bowl into the stream of tears.
+: After a few moments, the bowl fills up, and you sip from it.
+: ...
+: A power washes over you, and you feel a strong sense of balance from within.
+: Congratulations, quest complete!

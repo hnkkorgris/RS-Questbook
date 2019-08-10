@@ -1,0 +1,42 @@
+﻿FLAG: myFlag 1
+:Line 1
+:Line 2
+
+:Line 3
+DECISION:
+	BUTTON: Path 1
+		:Path 1 Line 1
+		FLAG: myFlag 0
+		:Path 1 Line 2
+	BUTTON: Path 2
+		:Path 2 Line 1
+		:Path 2 Line 2
+		:Path 2 Line 3
+	BUTTON: Path 3: with a colon
+		FLAG: myFlag 2
+		:Path 3 Line 1
+		:Path 3 Line 2
+:Line 4
+CONDITION:
+	IF: myFlag 1
+		:Line 4 - flag is 1
+	ELSE:
+:Line 5: with colon
+CONDITION:
+	IF: myFlag 0
+		:Line 5 - flag is 0
+		:Line 5 - another line in flag 0
+	ELSE:
+		:Line 5 - else!
+DECISION:
+	BUTTON: Path 1
+	BUTTON: Path 2
+		:Path 2 Line 1
+		:Path 2 Line 2
+		DECISION:
+			BUTTON: Path 2.1
+				DECISION:
+					BUTTON: Path 2.1.1
+						:Path 2.1.1 Line 1
+					BUTTON: Path 2.1.2
+						:Path 2.1.2 Line 1
