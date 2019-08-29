@@ -5,14 +5,12 @@ using UnityEngine.UI;
 
 public class ExplorationManager : MonoBehaviour
 {
-    public Image CharacterSprite;
-
     private float velocity;
 
     // Start is called before the first frame update
     void Start()
     {
-        velocity = 0.04f;
+        velocity = 0.08f;
     }
 
     // Update is called once per frame
@@ -23,7 +21,7 @@ public class ExplorationManager : MonoBehaviour
 
     void MoveCharacter()
     {
-        var newPosition = CharacterSprite.transform.position;
+        var newPosition = gameObject.transform.position;
 
         if(Input.GetKey(KeyCode.UpArrow))
         {
@@ -42,6 +40,6 @@ public class ExplorationManager : MonoBehaviour
             newPosition.x += velocity;
         }
 
-        CharacterSprite.transform.SetPositionAndRotation(newPosition, Quaternion.identity);
+        gameObject.transform.SetPositionAndRotation(newPosition, Quaternion.identity);
     }
 }
