@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Update sprite animation
         _animator.SetInteger("xMoveDirection", direction.x);
+        _animator.SetInteger("yMoveDirection", direction.y);
     }
 
     private Vector2Int GetDirectionFromInputs()
