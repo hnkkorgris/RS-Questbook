@@ -37,7 +37,7 @@ DECISION:
 		You: Okay, I'll tell you a story...
 	BUTTON: Okay, I'll tell you a story...
 : You tell Juna some stories of your adventures.
-You (happy): And then I clobbered him over the head with it! You should have seen his face!
+You (happy): And then he turned himself into a pickle! Funniest shit I have ever seen.
 Juna (curious): Your stories have entertained me. I will let you into the cave for a short time.
 Juna: But first, you will need to make a bowl in which to collect the Tears.
 Juna: There is a cave at the bottom of the chasm that is similarly infused with the power of Guthix.
